@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>CRUD Table</title>
+</head>
+<body>
+    <nav class="list_table">
+        <div class="link_table_block">
+            <button class="link_table_elem" id="nav_teachers" type="button"><h3>Учителя</h3></button>
+            <button class="link_table_elem" id="nav_students" type="button"><h3>Ученики</h3></button>
+            <button class="link_table_elem" id="nav_classes" type="button"><h3>Классы</h3></button>
+        </div>
+    </nav>
+    <section class="table_section">
+        <table class="table">
+
+                <!-- <td class="table_header_td">Какая-то шапка!</td>
+                <td class="table_header_td">Какая-то шапка!</td>
+                <td class="table_header_td">Какая-то шапка!</td>
+                <td class="table_header_td">Какая-то шапка!</td>
+                <td class="table_header_td">Какая-то шапка!</td>        -->
+
+            <!-- <tr class="table_body" id=<id строки БД>>
+                <td class="table_row_td">Какой-то текст!</td>
+                <td class="table_row_td">Какой-то текст!</td>
+                <td class="table_row_td">Какой-то текст!</td>
+                <td class="table_row_td">Какой-то текст!</td>
+                <td class="table_row_td">Какой-то текст!</td>
+                <td class="table_row_delete">
+                    <input class="table_button_delete" type="image" src="source/delete.ico" alt="Delete">
+                </td>
+            </tr> --> 
+        </table>
+    </section>
+ 
+        
+    <script src="js/script.js"></script>
+    <script src="js/communication.js"></script>
+</body>
+</html>
+
+
+<!-- <form class="create_new_DB" >
+            <label for="NameColumnDB"><b>Имя таблицы</b></label>
+            <input type="text" placeholder="Имя таблицы">
+            <div class="block_create_DB">
+                <img class="DB_button_add" type="image" src="source/add_column.ico" title="Добавить колонку" alt="Add column">
+                <div class="create_new_name_DB">
+                    <label for="NameColumnDB">Имя колонки</label>
+                    <input type="text" name="name" class="name_column_DB">
+                </div>
+                <div class="create_column_type">
+                    <label for="dataTypeDB">Тип данных</label>
+                    <select name="dataType" class="data_type_column">
+                        <option value="integer">Целочисленный</option>
+                        <option value="float">Вещественный</option>
+                        <option value="varchar(256)">Символьный</option>
+                        <option value="boolean">Булевый</option>
+                        <option value="date">Дата</option>
+                    </select>
+                </div>
+                <img class="DB_button_delete" type="image" src="source/delete_column.ico" title="Удалить колонку" alt="Delete column">
+            </div>
+            <div class="block_button_DB">
+                <button id="clear_buton_DB" class="button_DB" type="reset">Очистить</button>
+                <button id="save_button_DB" class="button_DB" type="reset">Создать</button>
+            </div>
+        </form>
+    </section> -->
